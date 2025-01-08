@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Estilos para el formulario de login */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+form label {
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Añadir esto para centrar el contenido en la página de inicio */
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-info, .contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3, .contact-form h3 {
+    color: #007bff;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+/* Estilos para la tabla de productos */
+.table-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los botones de cantidad */
+.quantity-buttons a.button {
+    padding: 5px 10px;
+    font-size: 14px;
+}

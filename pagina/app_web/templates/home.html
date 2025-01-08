@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Página Principal{% endblock %}
+
+{% block content %}
+<div class="home-content">
+    <h1>¡Bienvenido a mi página web!</h1>
+    <img src="{% static 'img/inicio.png' %}" alt="Imagen de Inicio">
+    <p>Esta página web es una plataforma para proporcionar información sobre nuestros servicios, mantener a nuestros usuarios informados sobre los últimos desarrollos y facilitar el contacto con nuestro equipo. Estamos dedicados a ofrecerte la mejor experiencia posible y a satisfacer tus necesidades de la manera más eficiente.</p>
+</div>
+{% endblock %}
